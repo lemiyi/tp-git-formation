@@ -13,6 +13,7 @@ function login(username, password) {
         return true;
     }
 
+    console.log("Test si echec!!");
     console.log("Échec de la connexion");
     return false;
 }
